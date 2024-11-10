@@ -69,7 +69,7 @@ public class MainManager : MonoBehaviour
             {
                 DataManager.instance.bestScore = m_Points;
                 DataManager.instance.bestScoreName = DataManager.instance.name;
-
+                DataManager.instance.saveBest();
               
             }
 
